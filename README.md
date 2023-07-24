@@ -1,5 +1,29 @@
-#                                                   Profile 42Cursus
-![42 Profile Card](https://1337-readme.vercel.app/api/profile?cursus=42cursus&email=hide&login=ahammout)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AissamTan&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-# Get_Next_line 
-This project is about a function that cam read a line from a file descriptor, when we call the function second time we will get the second line from the file descriptor, and like so, is the mandatory part we will workd just with a single file descriptor but in the Bonus part we will deal with a lot of file descripors.
+# Get_Next_line
+
+### Brief
++ This is a function used to read a text from a file line by line, the function takes the file descriptor of the file, returns a line from the given file,
+to read the whole text from the file, you can can this function inside a loop, so it will return a line from the file on each iteration, the function returns
+(null) when the file content ends.
+
+### Clone
+
+```
+git clone https://github.com/ahammout/get_next_line.git
+```
+
+### Usage
+
++ To use this function you need to include the header file, and add a main function to call it inside.
+* Compilation:
+
+```
+cd get_next_line
+```
+
+```
+gcc main.c get_next_line.c get_next_line_utils.c -o GetNextLine
+```
+
+```
+./GetNextLine
+```
